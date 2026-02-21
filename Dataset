@@ -1,0 +1,11 @@
+# Dataset
+
+This project uses the **California Housing Dataset** provided by Scikit-learn.
+
+The dataset contains housing-related information such as median income, house age, average rooms, population, and geographical location to predict median house prices.
+
+It is fetched directly using:
+
+```python
+from sklearn.datasets import fetch_california_housing
+data = fetch_california_housing()
